@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OpenMRS Test Suite" verbose="1" parallel="false">
+    <test name="Ordered Feature Execution">
+        <classes>
+            <class name="runner.LoginRunner"/>
+            <class name="runner.RegistrationRunner"/>
+            <class name="runner.AttachmentRunner"/>
+            <class name="runner.VitalsBMIRunner"/>
+            <class name="runner.MergeRunner"/>
+            <class name="runner.PastVisitRunner"/>
+            <class name="runner.DeleteRunner"/>
+            
+            
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OpenMRS Test Suite]">
+  <test thread-count="5" name="Ordered Feature Execution(failed)">
+    <classes>
+      <class name="runner.MergeRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.MergeRunner -->
+      <class name="runner.LoginRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.LoginRunner -->
+      <class name="runner.PastVisitRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- runner.PastVisitRunner -->
+      <class name="runner.RegistrationRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- runner.RegistrationRunner -->
+      <class name="runner.VitalsBMIRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- runner.VitalsBMIRunner -->
+      <class name="runner.DeleteRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- runner.DeleteRunner -->
+    </classes>
+  </test> <!-- Ordered Feature Execution(failed) -->
+</suite> <!-- Failed suite [OpenMRS Test Suite] -->

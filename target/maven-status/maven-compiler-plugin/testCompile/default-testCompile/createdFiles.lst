@@ -1,0 +1,5 @@
+runner\RunnerFile.class
+stepDefinitions\RegistrationStepDefinition.class
+runner\RunnableJAR.class
+stepDefinitions\BaseUtils.class
+pageElements\RegistrationPageElements.class
