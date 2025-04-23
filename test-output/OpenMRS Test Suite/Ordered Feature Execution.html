@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/6/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Apr 13 19:42:46 IST 2025</td>
+<td>Started on:</td><td>Wed Apr 16 08:46:35 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>2 seconds (2544 ms)</td>
+<tr><td>Total time:</td><td>3 seconds (3427 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,7 +76,7 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.AttachmentRunner.setUpClass()'><b>setUpClass</b><br>Test class: runner.AttachmentRunner<br>Parameters: org.testng.TestRunner@29c5ee1d</td>
+<td title='runner.AttachmentRunner.setUpClass()'><b>setUpClass</b><br>Test class: runner.AttachmentRunner<br>Parameters: org.testng.TestRunner@769d513</td>
 <td><div><pre>java.lang.IllegalArgumentException: path must exist: C:\Users\sakthivel\eclipse-workspace\Knila\src\test\resources\features\OpenMrsAttachment.feature
 	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:49)
 	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
@@ -87,8 +87,8 @@ function toggleAllBoxes() {
 	at io.cucumber.testng.TestNGCucumberRunner.&lt;init&gt;(TestNGCucumberRunner.java:122)
 	at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2060037930", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2060037930'><pre>java.lang.IllegalArgumentException: path must exist: C:\Users\sakthivel\eclipse-workspace\Knila\src\test\resources\features\OpenMrsAttachment.feature
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1470772251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1470772251'><pre>java.lang.IllegalArgumentException: path must exist: C:\Users\sakthivel\eclipse-workspace\Knila\src\test\resources\features\OpenMrsAttachment.feature
 	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:49)
 	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
 	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
@@ -125,7 +125,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>runner.AttachmentRunner@43f02ef2</td></tr>
+<td>runner.AttachmentRunner@2dfaea86</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
@@ -135,63 +135,6 @@ function toggleAllBoxes() {
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
-<tr>
-<td title='runner.MergeRunner.runScenario()'><b>runScenario</b><br>Test class: runner.MergeRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Merge two visits for the same patient", "Optional[Merge Visit feature for Oprnmrs]"</td>
-<td><div><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
-	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:277)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:271)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace179060558", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace179060558'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
-	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:277)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:271)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>runner.MergeRunner@2a8448fa</td></tr>
 <tr>
 <td title='runner.PastVisitRunner.runScenario()'><b>runScenario</b><br>Test class: runner.PastVisitRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add a past visit and verify the date picker", "Optional[Past Visit feature for Oprnmrs]"</td>
 <td><div><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
@@ -206,8 +149,8 @@ function toggleAllBoxes() {
 	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
 	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1441577726", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1441577726'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1159694255", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1159694255'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
 	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:277)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:271)
@@ -248,64 +191,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>runner.PastVisitRunner@6f204a1a</td></tr>
-<tr>
-<td title='runner.VitalsBMIRunner.runScenario()'><b>runScenario</b><br>Test class: runner.VitalsBMIRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Capture vitals and BMI calculation", "Optional[Vitals and BMI calculation feature for Oprnmrs]"</td>
-<td><div><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
-	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:277)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:271)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1206180304", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1206180304'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
-	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:277)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:271)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>runner.VitalsBMIRunner@239a307b</td></tr>
+<td>runner.PastVisitRunner@14fc5f04</td></tr>
 <tr>
 <td title='runner.LoginRunner.runScenario()'><b>runScenario</b><br>Test class: runner.LoginRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Redirect to dashboard after successful login", "Optional[Login feature for Oprnmrs]"</td>
 <td><div><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
@@ -320,8 +206,8 @@ function toggleAllBoxes() {
 	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
 	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace81269359", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace81269359'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1559817679", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1559817679'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
 	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:277)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:271)
@@ -362,7 +248,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>runner.LoginRunner@4201c465</td></tr>
+<td>runner.LoginRunner@38467116</td></tr>
 <tr>
 <td title='runner.RegistrationRunner.runScenario()'><b>runScenario</b><br>Test class: runner.RegistrationRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register a new patient", "Optional[Registration feature for Oprnmrs]"</td>
 <td><div><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
@@ -377,8 +263,8 @@ function toggleAllBoxes() {
 	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
 	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1480170882", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1480170882'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace79706679", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace79706679'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
 	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:277)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:271)
@@ -419,7 +305,64 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>runner.RegistrationRunner@7bd7d6d6</td></tr>
+<td>runner.RegistrationRunner@d554c5f</td></tr>
+<tr>
+<td title='runner.VitalsBMIRunner.runScenario()'><b>runScenario</b><br>Test class: runner.VitalsBMIRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Capture vitals and BMI calculation", "Optional[Vitals and BMI calculation feature for Oprnmrs]"</td>
+<td><div><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:277)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:271)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace339126187", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace339126187'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:277)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:271)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>runner.VitalsBMIRunner@15888343</td></tr>
 <tr>
 <td title='runner.DeleteRunner.runScenario()'><b>runScenario</b><br>Test class: runner.DeleteRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete a patient and verify deletion", "Optional[Deleting a patient feature for Oprnmrs]"</td>
 <td><div><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
@@ -434,8 +377,8 @@ function toggleAllBoxes() {
 	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
 	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace761229698", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace761229698'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace30563356", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace30563356'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
 	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:277)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:271)
@@ -476,7 +419,64 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>runner.DeleteRunner@2de56eb2</td></tr>
+<td>runner.DeleteRunner@6e2829c7</td></tr>
+<tr>
+<td title='runner.MergeRunner.runScenario()'><b>runScenario</b><br>Test class: runner.MergeRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Merge two visits for the same patient", "Optional[Merge Visit feature for Oprnmrs]"</td>
+<td><div><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:277)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:271)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1735390128", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1735390128'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinitions.AddAttatchmentStepDefinition.i_click_on_the_menu(java.lang.String) and stepDefinitions.PastVisitStepDefinition.i_click_on_the_menu(java.lang.String)
+	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:277)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:271)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>runner.MergeRunner@33ecda92</td></tr>
 </table><p>
 </body>
 </html>
